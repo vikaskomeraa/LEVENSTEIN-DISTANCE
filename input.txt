@@ -1,0 +1,12 @@
+hello
+halo
+openai
+openpi
+cat
+dog
+book
+cook
+computer
+calculator
+orange
+grape

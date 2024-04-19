@@ -1,0 +1,9 @@
+The time complexity of the Levenshtein distance algorithm implemented in your code can be analyzed as follows:
+
+- Best Case: If the two input strings are identical, meaning there are no insertions, deletions, or substitutions needed, the algorithm will only perform initialization of the distance matrix, which takes O(m * n) time, where m and n are the lengths of the input strings. Therefore, the best-case time complexity is O(m * n), where m and n are the lengths of the input strings.
+
+- Worst Case: In the worst case, the algorithm iterates through each cell of the distance matrix, performing constant time operations for each cell. Therefore, the worst-case time complexity is O(m * n), where m and n are the lengths of the input strings.
+
+- Average Case: The average-case time complexity is also O(m * n), as the algorithm typically involves iterating through each cell of the distance matrix, with the number of iterations being proportional to the product of the lengths of the input strings.
+
+Overall, the time complexity of your Levenshtein distance algorithm is O(m * n), where m and n are the lengths of the input strings.
